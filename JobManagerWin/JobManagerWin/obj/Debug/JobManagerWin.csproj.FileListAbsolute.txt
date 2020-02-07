@@ -1,0 +1,11 @@
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\bin\Debug\JobManagerWin.exe.config
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\bin\Debug\JobManagerWin.exe
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\bin\Debug\JobManagerWin.pdb
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.csprojAssemblyReference.cache
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.Properties.Resources.resources
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.csproj.GenerateResource.cache
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.exe
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.pdb
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.FormAddJob.resources
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.FormHome.resources
+C:\Users\Alan\source\repos\JobManagerWin\JobManagerWin\obj\Debug\JobManagerWin.FormViewJobs.resources

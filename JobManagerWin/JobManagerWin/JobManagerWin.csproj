@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F47D2AD7-9F23-472A-A36F-62BB4FBD6A71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JobManagerWin</RootNamespace>
+    <AssemblyName>JobManagerWin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAddJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddJob.Designer.cs">
+      <DependentUpon>FormAddJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormViewJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormViewJobs.Designer.cs">
+      <DependentUpon>FormViewJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JobsDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobsDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAddJob.resx">
+      <DependentUpon>FormAddJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormViewJobs.resx">
+      <DependentUpon>FormViewJobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="JobsDataSet.xsc">
+      <DependentUpon>JobsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet.xss">
+      <DependentUpon>JobsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet1.xsc">
+      <DependentUpon>JobsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet1.xss">
+      <DependentUpon>JobsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet2.xsc">
+      <DependentUpon>JobsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet2.xss">
+      <DependentUpon>JobsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet3.xsc">
+      <DependentUpon>JobsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet3.xss">
+      <DependentUpon>JobsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet4.xsc">
+      <DependentUpon>JobsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet4.xss">
+      <DependentUpon>JobsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet5.xsc">
+      <DependentUpon>JobsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet5.xss">
+      <DependentUpon>JobsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet6.xsc">
+      <DependentUpon>JobsDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet6.xss">
+      <DependentUpon>JobsDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet7.xsc">
+      <DependentUpon>JobsDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet7.xss">
+      <DependentUpon>JobsDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet8.xsc">
+      <DependentUpon>JobsDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="JobsDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobsDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobsDataSet8.xss">
+      <DependentUpon>JobsDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
